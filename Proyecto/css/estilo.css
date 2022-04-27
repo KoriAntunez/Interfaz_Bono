@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/*----------------------------------------
+SOBREESCRIBIENDO  LOS ESTILOS DE BOOTSTRAP
+------------------------------------------*/
+.navbar {
+  box-shadow: 0px 10px 10px -6px rgb(139, 132, 132);
+  padding: 3px;
+}
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+.bg-primary {
+  background-color: #bf0909 !important;
+}
+
+.seccion-inicio {
+  margin-top: 10px;
+}
+
+.titulo-formulario {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: #2c78bb;
+  font-weight: bold;
+}
+.descripcion-titulo {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  color: #2c78bb;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  line-height: 0px;
+}
+.descripcion-titulo.primero {
+  margin-top: 20px;
+}
+.descripcion-titulo-formulario {
+  text-align: center;
+  font-size: 15px;
+  color: #7f8080;
+  line-height: 15px;
+}
+
+.a {
+  text-align: left;
+  color: #2c78bb;
+  text-decoration: underline;
+  font-weight: 700;
+}
+a:link.form {
+  font-weight: 700;
+  color: #2c78bb;
+  text-decoration: underline;
+}
+a:link.final {
+  font-weight: 700;
+  color: #2c78bb;
+}
+a:visited.form {
+  font-weight: 700;
+  color: #2c78bb;
+  text-decoration: underline;
+  text-align: center;
+}
+a:visited.final {
+  font-weight: 700;
+  color: #2c78bb;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+}
+.img-fluid.contenido {
+  width: 220px;
+  display: block;
+  margin: auto;
+}
+.img-fluid1 {
+  width: 160px;
+  height: 50px;
+}
+.img-fluid2 {
+  width: 200px;
+  height: 50px;
+}
+
+.img {
+  width: 304px;
+  height: 89px;
+}
+.img.seguridad {
+  display: block;
+  margin: auto;
+}
+.central {
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.contentform-border {
+  transform: scale(1);
+  display: inline-block;
+  border: 3px solid #2c78bb !important;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  text-align: left;
+  font-size: 16px;
+  margin-top: 0px;
+  padding: 10px 25px;
+  box-shadow: 0 0 10px 0 #ffffffe6;
+}
+.btn-primary {
+  background: #2c78bb;
+  color: #fff;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.field-container {
+  position: relative;
+  border: 1px solid #bcbaba;
+  height: 50px;
+  width: 320px;
+  padding-left: 12px;
+}
+.centro {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--TITULO DE PÁGINA-->
+    <link rel="shortcut icon" href="imagenes/Essalud.png" type="image/x-icon" />
+    <title>Bono210</title>
+
+    <!--ARCHIVOS CSS BOOTSTRAP 4-->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/estilo.css" />
+  </head>
+
+  <body>
+    <!-- Encabezado 1 -->
+    <nav class="navbar navbar-dark navbar-expand-sm text-light bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="d-lg-flex col-lg-4 col-sm-12 text-left m-0">
+            <img class="img-fluid" src="imagenes/gobpe.jpg" alt="" />
+          </div>
+
+          <div class="d-none d-lg-flex col-lg-1 text-left">
+            <h1>|</h1>
+          </div>
+
+          <div class="d-none d-lg-flex col-lg-7 my-auto">
+            <a class="navbar-brand" href="#">
+              Consulta de bono extraordinario 210
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Formulario-->
+    <section class="container">
+      <div class="row central">
+        <form class="col-5 col-lg-5 col-sm-12">
+
+          <div class="row">
+          <div class="col-12 seccion-inicio">
+          <img class="img-fluid contenido" src="imagenes/bono.jpg" alt="" />
+          </div>
+          </div>
+          <p class="descripcion-titulo primero">
+            Bono extraordinario para personal del Sector
+          </p>
+          <p class="descripcion-titulo">
+            Privado con ingresos de hasta S/ 2000
+          </p>
+          <br />
+
+          <div class="contentform-border">
+            <p class="titulo-formulario">Consulta en línea</p>
+            <p class="descripcion-titulo-formulario">
+              Ingresa tus datos para saber si eres beneficiario y conocer tu
+              información sobre el pago del bono
+            </p>
+            <div class="form-floating mb-3">
+              <input
+                type="number"
+                class="form-control"
+                id="floatingInput"
+                placeholder="DNI"
+              />
+              <label for="floatingInput">Numero de DNI</label>
+            </div>
+            <a
+              class="form"
+              href="https://www.gob.pe/13432-encontrar-digito-verificador-en-el-dni"
+              >¿Dónde lo encuentro?
+            </a>
+            <div class="form-floating mb-3">
+              <input
+                type="number"
+                class="form-control"
+                id="floatingInput"
+                placeholder="CUI"
+              />
+              <label for="floatingInput">Dígito Verificador de DNI (CUI)</label>
+            </div>
+
+          <div class="row">
+            <div class="col-12">
+            <img class="img seguridad" src="imagenes/recapchat.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 centro">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="invalidCheck2"
+                  required
+                />
+                <label class="form-check-label" for="invalidCheck2">
+                  Acepto
+                  <a
+                    class="form"
+                    href="https://bono210.essalud.gob.pe/assets/upload/files/POLITICA%20DE%20PRIVACIDAD%20BONO%20EXTRAORDINARIO.pdf"
+                    >la política de confidencialidad y tratamiento de datos
+                    personales
+                  </a>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Consultar</button>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 centro">
+            <a
+              class="final"
+              href="https://bono210.essalud.gob.pe/#/preguntas-frecuentes"
+              >Preguntas frecuentes
+            </a>
+            </div>
+           </div>
+           
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Organizaciones relacionadas-->
+    <footer class="mt-auto d-none d-lg-flex ">
+      <div class="container">
+        <div class="row centro">
+          <div class="col-lg-4 centro">
+            <img class="img-fluid2" src="imagenes/MTP.jpg" alt="" />
+          </div>
+          <div class="col-lg-4 centro">
+            <img class="img-fluid1" src="imagenes/PeEssalud.jpg" alt="" />
+          </div>
+          <div class="col-lg-4 centro">
+            <img class="img-fluid1" src="imagenes/SEP.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
